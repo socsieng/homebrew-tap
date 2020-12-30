@@ -3,7 +3,7 @@
 class Sendkeys < Formula
   desc "Command line tool for automating keystrokes and mouse events"
   homepage "https://github.com/socsieng/sendkeys"
-  url "https://github.com/socsieng/sendkeys.git", :tag => "v0.1.0", :revision => "fac505f7e920f50f18b4cf573cf5ce50c5963ebb"
+  url "https://github.com/socsieng/sendkeys.git", :tag => "v0.1.0", :revision => "69baa4655019b226d679786d320e0857f58e955a"
   version "0.1.0"
   license "Apache-2.0"
 
