@@ -1,8 +1,8 @@
 class Sendkeys < Formula
   desc "Command line tool for automating keystrokes and mouse events"
   homepage "https://github.com/socsieng/sendkeys"
-  url "https://github.com/socsieng/sendkeys.git", :tag => "v2.1.0", :revision => "ba7e986dbb5b34d20bb61079bb59d3d0a4f246cf"
-  version "2.1.0"
+  url "https://github.com/socsieng/sendkeys.git", :tag => "v2.1.1", :revision => "aa9c20d37dc20fce4d4cb927728f125ab5e0a9e5"
+  version "2.1.1"
   license "Apache-2.0"
 
   depends_on :xcode => ["12.0", :build]
@@ -21,8 +21,8 @@ class Sendkeys < Formula
   end
 
   bottle do
-    root_url "https://github.com/socsieng/sendkeys/releases/download/v2.1.0"
+    root_url "https://github.com/socsieng/sendkeys/releases/download/v2.1.1"
     cellar :any_skip_relocation
-    sha256 "35111cce316746089c1f8df34cde7bbe04a0053c5099e5604ab3933fc529a93a" => :catalina
+    sha256 "f2ae7186d522a4a9418d566021856fb9ef277240ed101b94808c56812fd38ac2" => :catalina
   end
 end
