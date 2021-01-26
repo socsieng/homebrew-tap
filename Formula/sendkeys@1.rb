@@ -1,4 +1,4 @@
-class Sendkeys < Formula
+class SendkeysAT1 < Formula
   desc "Command line tool for automating keystrokes and mouse events"
   homepage "https://github.com/socsieng/sendkeys"
   url "https://github.com/socsieng/sendkeys.git", :tag => "v1.1.1", :revision => "1ce7da673b9671dc77fd8ca08e829dd989629faa"
