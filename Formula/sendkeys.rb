@@ -24,5 +24,7 @@ class Sendkeys < Formula
     root_url "https://github.com/socsieng/sendkeys/releases/download/v2.3.0"
     cellar :any_skip_relocation
     sha256 "312b6f5e786f623e9859283884b86ae49decfc5025c5b705c6486d918115d2b5" => :catalina
+    # sha256 "312b6f5e786f623e9859283884b86ae49decfc5025c5b705c6486d918115d2b5" => :big_sur
+    # sha256 "312b6f5e786f623e9859283884b86ae49decfc5025c5b705c6486d918115d2b5" => :arm64_big_sur
   end
 end
