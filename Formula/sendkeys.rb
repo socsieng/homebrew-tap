@@ -21,7 +21,7 @@ class Sendkeys < Formula
   end
 
   bottle do
-    root_url ""
+    root_url "https://github.com/socsieng/sendkeys/releases/download/v2.3.10"
     cellar :any_skip_relocation
     sha256 "2685424fd5d552070f0ef2292be79f68618507c5edeccacb9858b2171358b0c0" => :catalina
     sha256 "2f791e7cc227701e5f13964aecf17c5a53a713a96c07d6ceef384326f8714a7d" => :big_sur
