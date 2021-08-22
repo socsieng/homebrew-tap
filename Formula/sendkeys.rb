@@ -1,15 +1,15 @@
 class Sendkeys < Formula
   desc "Command-line tool for automating keystrokes and mouse events"
   homepage "https://github.com/socsieng/sendkeys"
-  url "https://github.com/socsieng/sendkeys.git", tag: "v2.6.1", revision: "cf6979aebcc2697a29b99d7f4b9e09d1a015d90f"
-  version "2.6.1"
+  url "https://github.com/socsieng/sendkeys.git", tag: "v2.6.2", revision: "a04fdf426111d3b44e26ad0eac5519fc6282bbb7"
+  version "2.6.2"
   license "Apache-2.0"
 
   bottle do
-    root_url "https://github.com/socsieng/sendkeys/releases/download/v2.6.1"
-    sha256 cellar: :any_skip_relocation, arm64_big_sur: "333da54f3a17ede7b8007882f2df27e6c19f835b076269de8f6f5f47eccb4393"
-    sha256 cellar: :any_skip_relocation, catalina:      "ea4149af5d0892be05fd3cba732e669a70616161cf501a80f02c812cd46fff99"
-    sha256 cellar: :any_skip_relocation, big_sur:       "10af506c8da525dc597fefb12d61ad362eb87c99bd55c3e8841b523718adf06a"
+    root_url "https://github.com/socsieng/sendkeys/releases/download/v2.6.2"
+    sha256 cellar: :any_skip_relocation, arm64_big_sur: "34f75082f751e85a9346609867aeea022073be53fd466dd352685ed4c6428084"
+    sha256 cellar: :any_skip_relocation, catalina:      "3aa7c448731bf661fb1c22f394ef0dea6c216168255cf3f65480789380cce6a6"
+    sha256 cellar: :any_skip_relocation, big_sur:       "c09ab94e569cc5cf8771acddbe5e41cd27e399d1e01d7498b925d282be9e15cc"
   end
 
   pour_bottle? do
