@@ -1,14 +1,14 @@
 class Sendkeys < Formula
   desc "Command-line tool for automating keystrokes and mouse events"
   homepage "https://github.com/socsieng/sendkeys"
-  url "https://github.com/socsieng/sendkeys.git", tag: "v3.0.0", revision: "60a622ed0fb374d710131e2862043f8a640e4be3"
-  version "3.0.0"
+  url "https://github.com/socsieng/sendkeys.git", tag: "v3.0.1", revision: "d4ecab0568c7a848f8dad22aad0e68e87f0000c6"
+  version "3.0.1"
   license "Apache-2.0"
 
   bottle do
-    root_url "https://github.com/socsieng/sendkeys/releases/download/v3.0.0"
-    sha256 cellar: :any_skip_relocation, arm64_big_sur: "634adab421c39199f9ec65f92f2adfddfc58006f01df67a47fed59ad03e7a492"
-    sha256 cellar: :any_skip_relocation, big_sur:       "f9cc5eacf93d60ef212e5fcd9a94031f4dbfaa24d2702e5546966596e4eca602"
+    root_url "https://github.com/socsieng/sendkeys/releases/download/v3.0.1"
+    sha256 cellar: :any_skip_relocation, arm64_big_sur: "de5d9fb2c62adbb04fb21ae131963d9a8178c6c813f6eccad7b486591c70201c"
+    sha256 cellar: :any_skip_relocation, big_sur:       "3a2c1f9656487d2cf07eafc84689c54b4042744b22b5708cc9068f9bccdc87a7"
   end
 
   pour_bottle? do
