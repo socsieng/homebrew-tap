@@ -7,6 +7,7 @@ class Sendkeys < Formula
 
   bottle do
     root_url "https://github.com/socsieng/sendkeys/releases/download/v4.1.1"
+    sha256 cellar: :any_skip_relocation, arm64_big_sur: "63be32cfad035380893dbb68c8810a8173e749b555b6e2137662bc94e25fe35e"
     sha256 cellar: :any_skip_relocation, big_sur:       "63be32cfad035380893dbb68c8810a8173e749b555b6e2137662bc94e25fe35e"
   end
 
